@@ -9,7 +9,7 @@ public class ConexionBBDD {
 	// Proporcionar los parámetros para conectarnos a la BBDD
 	private static final String URL = "jdbc:mysql://localhost:3306/furboh?useSSL=false";
 	private static final String USUARIO = "root";
-	private static final String PASS = "mysql";
+	private static final String PASS = "root";
 	
 	// Crear nuestra variable de conexión que nos permita verificar si la consexión no está activa
 	private static Connection conexion = null;
