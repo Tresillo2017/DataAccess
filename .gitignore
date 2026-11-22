@@ -95,3 +95,8 @@ local.properties
 out
 gen
 /mysql-connector-java-5.1.47.jar
+
+# Local MySQL data
+db/data/
+db/mysql.log
+db/server/
